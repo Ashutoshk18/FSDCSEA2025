@@ -1,0 +1,35 @@
+/* * {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  border: 2px solid red;
+  width: 100vw;
+  height: 400px;
+  flex-direction: row;
+}
+
+.child {
+  background-color: darkkhaki;
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
+} */
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 500px 200px;
+  border: 2px solid red;
+  width: 100vw;
+  height: 400px;
+}
+/* maximum 12 columns can be used */
+.child {
+  background-color: darkkhaki;
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
+}
