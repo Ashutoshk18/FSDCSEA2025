@@ -1,0 +1,15 @@
+.book-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
+}
+
+.book {
+  border: 3px solid black;
+  border-radius: 16px;
+  padding: 16px;
+}
+.book img {
+  height: 200px;
+}

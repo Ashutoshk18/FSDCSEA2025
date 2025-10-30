@@ -41,14 +41,24 @@
 
 import React from "react";
 import Profile from "./Profile.jsx";
+import Book from "./Book.jsx";
+import "../index.css";
+import StateHandling from "./StateHandling.jsx";
 // import ICard from "./ICard";
 function App() {
   return (
     <>
-      <h1>Hello</h1>
-      <Profile />
-      {/* <ICard name="Ashutosh Kumar" /> */}
+      {/* <h1>Hello</h1> */}
+      {/* <Profile /> */}
+      <div className="book-container">
+        <Book image="image" title="title" publisher="publisher" />
+        <Book image="image" title="title" publisher="publisher" />
+        <Book image="image" title="title" publisher="publisher" />
+        <Book image="image" title="title" publisher="publisher" />
+        <StateHandling />
+        {/* <ICard name="Ashutosh Kumar" /> */}
+      </div>
     </>
   );
 }
-export default App();
+export default App;
