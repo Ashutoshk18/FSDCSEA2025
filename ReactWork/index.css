@@ -1,7 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .book-container {
   display: flex;
   justify-content: space-evenly;
-  height: 100vh;
   align-items: center;
 }
 
@@ -9,7 +13,17 @@
   border: 3px solid black;
   border-radius: 16px;
   padding: 16px;
+  width: 200px;
+  margin-bottom: 10px;
 }
 .book img {
   height: 200px;
+  max-width: 100%;
+}
+
+.dashboard {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }

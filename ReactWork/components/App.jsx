@@ -43,7 +43,8 @@ import React from "react";
 import Profile from "./Profile.jsx";
 import Book from "./Book.jsx";
 import "../index.css";
-import StateHandling from "./StateHandling.jsx";
+import Dashboard from "./Dashboard.jsx";
+import StateHandling from "./stateHandling.jsx";
 // import ICard from "./ICard";
 function App() {
   return (
@@ -57,6 +58,9 @@ function App() {
         <Book image="image" title="title" publisher="publisher" />
         <StateHandling />
         {/* <ICard name="Ashutosh Kumar" /> */}
+      </div>
+      <div className="dashboard">
+        <Dashboard />
       </div>
     </>
   );
